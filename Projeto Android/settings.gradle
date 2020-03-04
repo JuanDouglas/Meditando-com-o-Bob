@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Meditando com o Bob'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="imgViewObjW">75dp</dimen>
+    <dimen name="imgViewObjH">75dp</dimen>
+    <dimen name="imgViewNextObjH">50dp</dimen>
+    <dimen name="imgViewNextObjW">50dp</dimen>
+    <dimen name="margin_ImgViewObj">10dp</dimen>
+    <dimen name="margin_ImgViewBtn">20dp</dimen>
+    <dimen name="txtSizeObj">8dp</dimen>
+    <dimen name="ObjText">80dp</dimen>
+    <dimen name="txtTutorialW">300dp</dimen>
+    <dimen name="txtTutorialH">115dp</dimen>
+    <dimen name="imgViewTutorialW">300dp</dimen>
+    <dimen name="imgViewTutorialH">225dp</dimen>
+    <dimen name="txtTutorialSize">35dp</dimen>
+
+</resources>

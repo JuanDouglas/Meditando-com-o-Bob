@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Meditando com o Bob</string>
+    <string name="topTutorial1">BEM VINDO!</string>
+    <string name="tutorial1">Seja bem-vindo ao \"De Boas\", onde você aprende meditação para ficar sempre de boas.</string>
+    <string name="topTutorial2">ENCARE ESSA AVENTURA!</string>
+    <string name="tutorial2">É divertido e ajudamos você a ficar motivado com recompensas pelo seu empenho em ficar "De Boas"</string>
+    <string name="topTutorial3">VAMOS LÁ ?!</string>
+    <string name="tutorial3">Você pode acompanhar sua evolução em ficar \"De boas\" com as nossas estatísticas inteligentes. </string>
+    <string name="botao_proximo">PRÓXIMO</string>
+    <string name="obj">OBJETIVOS</string>
+    <string name="Objetivo1_Nome">FICAR SUSSA</string>
+    <string name="Objetivo1">Relaxar, reduzir ansiedade e o stress.</string>
+    <string name="Objetivo2_Nome">OLHA A FOCA!</string>
+    <string name="Objetivo2">Aumentar o foco.</string>
+    <string name="Objetivo3_Nome">DORMIR DE BOAS</string>
+    <string name="Objetivo3">Dormir melhor.</string>
+    <string name="acabouObj">Haaaa não! Acabaram os objetivos!</string>
+
+
+</resources>

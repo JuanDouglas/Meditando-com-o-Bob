@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroudNoColor"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:onClick="backClickMain"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/obj"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_grafico" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backgroudNoColor2">
+                    <ImageView
+                        android:id="@+id/imgViewObj1_1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/bob_cochilando" />
+
+                    <TextView
+                        android:id="@+id/txtViewObj1_1"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@id/imgViewObj1_1"
+                        android:layout_alignTop="@id/imgViewObj1_1"
+                        android:layout_marginLeft="@dimen/ObjText"
+                        android:layout_marginTop="18dp"
+                        android:text="@string/Objetivo1_Nome"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/txtViewObj1_1"
+                        android:layout_alignLeft="@id/txtViewObj1_1"
+                        android:layout_alignBottom="@id/imgViewObj1_1"
+                        android:text="@string/Objetivo1"
+                        android:textSize="@dimen/txtSizeObj" />
+
+                    <ImageView
+                        android:id="@+id/imgViewObj1_2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:onClick="obj1Click"
+                        android:layout_margin="20dp"
+                        android:background="@color/backgroudNoColor"
+                        android:src="@drawable/ic_navigate_next_black_24dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/imgViewObj2_1"
+                        android:layout_width="@dimen/imgViewObjW"
+                        android:layout_height="@dimen/imgViewObjH"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="@dimen/margin_ImgViewObj"
+                        android:src="@drawable/bob_rindo" />
+
+                    <TextView
+                        android:id="@+id/txtViewObj1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignLeft="@id/imgViewObj2_1"
+                        android:layout_marginLeft="78dp"
+                        android:layout_marginTop="32dp"
+                        android:text="@string/Objetivo2_Nome"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/txtViewObj1"
+                        android:layout_alignLeft="@id/txtViewObj1"
+                        android:layout_alignBottom="@id/imgViewObj2_1"
+                        android:text="@string/Objetivo2"
+                        android:textSize="@dimen/txtSizeObj" />
+
+                    <ImageView
+                        android:id="@+id/imgView2"
+                        android:layout_width="@dimen/imgViewNextObjW"
+                        android:layout_height="@dimen/imgViewNextObjH"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/margin_ImgViewBtn"
+                        android:background="@color/backgroudNoColor"
+                        android:src="@drawable/ic_navigate_next_black_24dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backgroudNoColor2">
+
+                    <ImageView
+                        android:id="@+id/imgViewObj3_1"
+                        android:layout_width="@dimen/imgViewObjW"
+                        android:layout_height="@dimen/imgViewObjH"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="@dimen/margin_ImgViewObj"
+                        android:src="@drawable/bob_acordando" />
+
+                    <TextView
+                        android:id="@+id/txtViewObj3_1"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_alignLeft="@id/imgViewObj3_1"
+                        android:layout_alignTop="@id/imgViewObj3_1"
+                        android:layout_marginLeft="@dimen/ObjText"
+                        android:layout_marginTop="28dp"
+                        android:text="@string/Objetivo3_Nome"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/txtViewObj3_1"
+                        android:layout_alignLeft="@id/txtViewObj3_1"
+                        android:layout_alignBottom="@id/imgViewObj3_1"
+                        android:text="@string/Objetivo3"
+                        android:textSize="@dimen/txtSizeObj" />
+
+                    <ImageView
+                        android:id="@+id/imgViewObj3_2"
+                        android:layout_width="@dimen/imgViewNextObjW"
+                        android:layout_height="@dimen/imgViewNextObjH"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/margin_ImgViewBtn"
+                        android:background="@color/backgroudNoColor"
+                        android:src="@drawable/ic_navigate_next_black_24dp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/backgroudColor">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_alignLeft="@id/txtViewAcabou"
+                        android:layout_marginLeft="-32dp"
+
+                        android:src="@drawable/bob_bad"></ImageView>
+
+                    <TextView
+                        android:id="@+id/txtViewAcabou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/acabouObj" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
